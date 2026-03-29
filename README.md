@@ -52,12 +52,6 @@ OPENAI_API_KEY=sk-...
 QUEUE_CONNECTION=database
 ```
 
-Publish the AI SDK config and migrations:
-
-```bash
-php artisan vendor:publish --provider="Laravel\Ai\AiServiceProvider"
-```
-
 Run migrations:
 
 ```bash
